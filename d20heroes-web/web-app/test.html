@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!-- Auto Generated with Sencha Architect -->
+<!-- Modifications to this file will be overwritten. -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>WebContent</title>
+    <script src="http://extjs.cachefly.net/touch/sencha-touch-2.0.1.1/sencha-touch-all.js"></script>
+    <link rel="stylesheet" href="http://extjs.cachefly.net/touch/sencha-touch-2.0.1.1/resources/css/sencha-touch.css">
+    <script type="text/javascript">
+    /*
+    var data = {
+    	    name: 'Don Griffin',
+    	    title: 'Senior Technomage',
+    	    company: 'Sencha Inc.',
+    	    drinks: ['Coffee', 'Water', 'More Coffee'],
+    	    kids: [
+    	        { name: 'Aubrey',  age: 17 },
+    	        { name: 'Joshua',  age: 13 },
+    	        { name: 'Cale',    age: 10 },
+    	        { name: 'Nikol',   age: 5 },
+    	        { name: 'Solomon', age: 0 }
+    	    ]
+    	};
+    */
+
+    var obj = {
+    		data:[
+    				{id: 1, rank: 10, power_id: 1, power:{id: 1, name: 'Super Speed', costPerRank: 5}}
+    				,{id: 2, rank: 10, power_id: 2, power:{id: 2, name: 'Sorcery', costPerRank: 5}}
+    				,{id: 3, rank: 10, power_id: 3, power:{id: 3, name: 'Continum Control', costPerRank: 5}}
+    				,{id: 4, rank: 6, power_id: 4, power:{id: 4, name: 'Flight', costPerRank: 5}}
+    				,{id: 5, rank: 6, power_id: 5, power:{id: 5, name: 'Flame Being', costPerRank: 5}}
+    				,{id: 6, rank: 3, power_id: 6, power:{id: 6, name: 'X-Ray Vision', costPerRank: 5}}
+    				,{id: 7, rank: 12, power_id: 7, power:{id: 7, name: 'Force Manipulation'}}
+    				,{id: 8, rank: 8, power_id: 8, power:{id: 8, name: 'Dispersal', costPerid: 1, rank: 5}}
+    				,{id: 9, rank: 9, power_id: 9, power:{id: 9, name: 'Mind Blast', costPerRank: 5}}
+    			]
+    		}
+
+    Ext.application({
+        launch: function() {
+            new Ext.Panel({
+                fullscreen: true,
+                dockedItems: [{xtype:'toolbar', title:'My First App'}],
+                layout: 'fit',
+                styleHtmlContent: true,
+                html: '<h2>Hello World!</h2>I did it!',
+                itemId: 'testPanel'
+            });
+/*
+            var tpl = new Ext.XTemplate(
+            	    '<p>Kids: ',
+            	    '<tpl for="kids">',       // process the data.kids node
+            	        '<p>{#}. {name}</p>',  // use current array index to autonumber
+            	    '</tpl></p>'
+            	);
+            	tpl.overwrite(Ext.getBody(), data); // pass the kids property of the data object
+            	*/
+                var tpl = new Ext.XTemplate(
+                	    '<tpl for=".">',       // process the data.kids node
+                	        '<p>Rank: {rank}',  // use current array index to autonumber
+                	        '<tpl for="power">',
+                	        ', Power: {name}</p>',
+                    	    '</tpl>',
+                	    '</tpl>'
+                	);
+            	tpl.overwrite(Ext.getBody(), obj.data); // pass the kids property of the data object
+
+        }
+    });
+    </script>
+</head>
+<body></body>
+</html>

@@ -1,0 +1,94 @@
+{
+    "name": "WebContent",
+    "settings": {
+        "urlPrefix": "http://localhost:8080/TestCharacterLayout",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 640,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "809cb545-7d90-4368-91fe-086df2733733": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "66c3423f-3a49-4861-a305-8267c0510418": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js"
+            ],
+            "className": "MyPanel"
+        },
+        "95497e56-4e6b-414f-a07a-ac5593ef623b": {
+            "paths": [
+                "metadata/store/CharacterPowerStore",
+                "app/store/override/CharacterPowerStore.js",
+                "app/store/CharacterPowerStore.js"
+            ],
+            "className": "CharacterPowerStore"
+        },
+        "7c9f104f-0afb-4925-b143-802d7d635be0": {
+            "paths": [
+                "metadata/model/Power",
+                "app/model/override/Power.js",
+                "app/model/Power.js"
+            ],
+            "className": "Power"
+        },
+        "a69ad8e0-0ce2-4881-830a-ffc1146dbcbd": {
+            "paths": [
+                "metadata/model/CharacterPower",
+                "app/model/override/CharacterPower.js",
+                "app/model/CharacterPower.js"
+            ],
+            "className": "CharacterPower"
+        },
+        "41d78062-cc18-4fda-ae5e-5e23e825ecd8": {
+            "paths": [
+                "metadata/store/PowerStore",
+                "app/store/override/PowerStore.js",
+                "app/store/PowerStore.js"
+            ],
+            "className": "PowerStore"
+        },
+        "818374ca-0de8-4e01-9081-de7a2ba91187": {
+            "paths": [
+                "metadata/controller/MyController",
+                "app/controller/override/MyController.js",
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "66c3423f-3a49-4861-a305-8267c0510418"
+        ],
+        "store": [
+            "95497e56-4e6b-414f-a07a-ac5593ef623b",
+            "41d78062-cc18-4fda-ae5e-5e23e825ecd8"
+        ],
+        "controller": [
+            "818374ca-0de8-4e01-9081-de7a2ba91187"
+        ],
+        "model": [
+            "7c9f104f-0afb-4925-b143-802d7d635be0",
+            "a69ad8e0-0ce2-4881-830a-ffc1146dbcbd"
+        ],
+        "resource": [
+            "809cb545-7d90-4368-91fe-086df2733733"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

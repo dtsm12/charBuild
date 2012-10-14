@@ -1,0 +1,42 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Power",
+            "CharacterPower"
+        ],
+        "stores": [
+            "CharacterPowerStore",
+            "PowerStore"
+        ],
+        "views": [
+            "MyPanel"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "MyController"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1697",
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "viewport",
+            "reference": {
+                "name": "viewport",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "Viewport",
+                "autoMaximize": true
+            },
+            "designerId": "8f87cb25-5c9a-47a6-bdbd-fac07da381e7"
+        }
+    ]
+}

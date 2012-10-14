@@ -1,0 +1,22 @@
+{
+	total: 16,
+	success: true,
+	data:[
+		{skill: {id: 1, name:'Acrobatics', costPerRank: 5}, rank: 10}
+		,{skill: {id: 2, name:'Athletics', costPerRank: 5}, rank: 10}
+		,{skill: {id: 3, name:'Close Combat', costPerRank: 5}, rank: 10}
+		,{skill: {id: 4, name:'Deception', costPerRank: 5}, rank: 8}
+		,{skill: {id: 5, name:'Expertise', costPerRank: 5}, rank: 6}
+		,{skill: {id: 6, name:'Insight', costPerRank: 5}, rank: 3}
+		,{skill: {id: 7, name:'Intimidation', costPerRank: 5}, rank: 12}
+		,{skill: {id: 8, name:'Investigation', costPerRank: 5}, rank: 8}
+		,{skill: {id: 9, name:'Perception', costPerRank: 5}, rank: 9}
+		,{skill: {id: 10, name:'Persuasion', costPerRank: 5}, rank: 9}
+		,{skill: {id: 11, name:'Ranged Combat', costPerRank: 5}, rank: 9}
+		,{skill: {id: 12, name:'Sleight of Hand', costPerRank: 5}, rank: 9}
+		,{skill: {id: 13, name:'Stealth', costPerRank: 5}, rank: 9}
+		,{skill: {id: 14, name:'Technology', costPerRank: 5}, rank: 9}
+		,{skill: {id: 15, name:'Treatment', costPerRank: 5}, rank: 9}
+		,{skill: {id: 16, name:'Vehicles', costPerRank: 5}, rank: 9}
+	]
+}

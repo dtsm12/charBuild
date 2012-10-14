@@ -1,0 +1,84 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PowerStore",
+        "autoLoad": true,
+        "data": null,
+        "groupField": null,
+        "model": "Power",
+        "storeId": "PowerStore"
+    },
+    "id": "ExtBox1-ext-gen3236",
+    "designerId": "41d78062-cc18-4fda-ae5e-5e23e825ecd8",
+    "cn": [
+        {
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "designer|displayName": "PowerProxy",
+                "url": "data/powers.json"
+            },
+            "designerId": "f7b0272e-629f-4563-823f-cfa29a007613",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader",
+                        "designer|displayName": "JsonReader",
+                        "rootProperty": "data"
+                    },
+                    "designerId": "635fcc30-b296-4274-b4d5-e48f87dd6e86"
+                }
+            ]
+        },
+        {
+            "type": "grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGrouper",
+                "sortProperty": null
+            },
+            "designerId": "3f3745d2-da87-4dbe-a4ba-0dbee333af70",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "groupFn",
+                        "fn": "groupFn",
+                        "designer|params": [
+                            "record"
+                        ],
+                        "implHandler": [
+                            "return record.get('name').substr(0, 1);"
+                        ]
+                    },
+                    "designerId": "5e3bc99d-3b3f-4f5b-ac38-bc1ff85d1c74"
+                }
+            ]
+        }
+    ]
+}

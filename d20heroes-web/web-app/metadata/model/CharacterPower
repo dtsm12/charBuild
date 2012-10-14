@@ -1,0 +1,99 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CharacterPower"
+    },
+    "id": "ExtBox1-ext-gen2869",
+    "designerId": "a69ad8e0-0ce2-4881-830a-ffc1146dbcbd",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field7",
+                "name": "id"
+            },
+            "designerId": "348d5002-dc56-4e9f-8ee6-c234e95fa9c3"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field3",
+                "name": "rank"
+            },
+            "designerId": "7bc628db-5221-4df7-9c24-4ba4e477c1a4"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field8",
+                "name": "power_id",
+                "mapping": "power.id"
+            },
+            "designerId": "09fcf21e-dbbc-4546-a23f-0eaed35daa50"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyHasOneAssociation",
+                "designer|displayName": "power",
+                "associationKey": "power_id",
+                "model": "Power",
+                "foreignKey": "id"
+            },
+            "designerId": "1119ffce-64eb-405e-8b7f-7bd624da7ab9"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field4",
+                "name": "power_name",
+                "mapping": "power.name"
+            },
+            "designerId": "c32e6aed-aed3-423a-b967-73fd7b92eb70"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field6",
+                "name": "costPerRank",
+                "mapping": "power.costPerRank"
+            },
+            "designerId": "787c08eb-38cc-4225-bbb3-ca9f912285be"
+        }
+    ]
+}

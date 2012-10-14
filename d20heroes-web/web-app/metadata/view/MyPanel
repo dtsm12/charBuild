@@ -1,0 +1,1704 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|animation": "slide",
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "itemId": "mainWindow",
+        "ui": "light",
+        "layout": "card"
+    },
+    "id": "ExtBox1-ext-gen13919",
+    "designerId": "66c3423f-3a49-4861-a305-8267c0510418",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel70",
+                "designer|displayName": "CharacterSheet",
+                "autoDestroy": false,
+                "layout": "vbox"
+            },
+            "designerId": "20f84ad6-e61b-4954-81dd-6a7e7c78854a",
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTitleBar",
+                        "docked": "top",
+                        "title": "&lt;Character Name&gt;"
+                    },
+                    "designerId": "b328edc5-470a-4b5f-8595-ffde1e681ee1",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "text": "Back"
+                            },
+                            "designerId": "5414881d-93a9-4815-b19f-991462015393"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 0.5,
+                        "designer|userClassName": "MyPanel1",
+                        "designer|displayName": "Attributes",
+                        "height": 148,
+                        "margin": null,
+                        "layout": "hbox"
+                    },
+                    "designerId": "de30b15d-d3e0-4052-81d0-19eb1f0e83b1",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyPanel6",
+                                "border": "0 1 0 0",
+                                "margin": 5,
+                                "style": "border-style: solid;",
+                                "layout": "vbox",
+                                "scrollable": null
+                            },
+                            "designerId": "be2f3dc0-8555-437c-bce8-ad4fdbb197a2",
+                            "cn": [
+                                {
+                                    "type": "carousel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "designer|userClassName": "MyCarousel2",
+                                        "scrollable": null
+                                    },
+                                    "designerId": "6905741f-99cf-4eed-a1c7-d87062cfa3c1",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel57",
+                                                "layout": "vbox"
+                                            },
+                                            "designerId": "9dd75136-1b16-4ed1-bb18-c372ba6845e9",
+                                            "cn": [
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "2931aa94-9181-424f-a63b-53763bd46fb9",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Strength"
+                                                            },
+                                                            "designerId": "90f5fca9-cc4e-4f76-946f-491f9f3e9245"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "b75e3fde-25e3-4b88-8371-c2ab4da51935"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "496526cf-c1fe-45d6-b38e-20739febfddc",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Dexterity"
+                                                            },
+                                                            "designerId": "cfdb2aae-79ea-43bc-b215-fdd4d8f0ef46"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "9a474b8e-bf88-459e-a132-8321f83582c0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "44ac1e8d-08da-401c-9d09-fc19a546cad3",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Agility"
+                                                            },
+                                                            "designerId": "d8fe8f7a-ec89-401b-ba78-70201fbab84a"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "944ea8d3-0474-40a8-bec7-fbb5d9c1b8bd"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "e1bb5eee-74c3-4812-8ef2-771320791ab5",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Fighting"
+                                                            },
+                                                            "designerId": "ffe598af-7346-4f5c-8304-0851389604c9"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "8021874a-6a52-4dde-b3b1-5ca94de14fde"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "86551f59-78bf-41b3-84ad-7622d0870de4",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": ""
+                                                            },
+                                                            "designerId": "d7c5d481-fdde-45e9-8f30-37586c1e13eb"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "c6bbcfd9-8b07-4d8c-ae6c-7cae918930b2"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel58",
+                                                "layout": "vbox"
+                                            },
+                                            "designerId": "51211e45-c6ef-4262-bc4e-48cd6114fe4c",
+                                            "cn": [
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "14fbadc1-146c-4580-bf2d-6ab16739321e",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Stamina"
+                                                            },
+                                                            "designerId": "337a0840-169d-41f7-a6d4-3d0635e926eb"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "9a51655a-6274-4c77-b3f1-3f0d755270bf"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "c8ba2c17-2d0b-4491-8295-3d731a69eb62",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Intellect"
+                                                            },
+                                                            "designerId": "06a85f8e-7068-4755-9f2f-91e0d8650b71"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "9e1886ef-e446-448a-b2f1-2b23108320a7"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "64db0a0b-72f3-40a2-8562-7d1217505dcf",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Awareness"
+                                                            },
+                                                            "designerId": "2f13ea8a-a30d-4a44-b0e0-43d34e4e62cd"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "3e23d301-c074-474a-ab24-1dc9632a3c51"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "f2705729-46e7-471f-af79-4749fffafcca",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Presence"
+                                                            },
+                                                            "designerId": "ae11cb6e-d948-40aa-94f9-f7d9d3f5c6af"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "ed78d81c-7c5e-4757-8ab9-c85ba66b9c6c"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "58f205fd-d279-4750-bb07-2f6c15e1078b",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": ""
+                                                            },
+                                                            "designerId": "7fa8a908-6b8a-40ea-ab73-9861b1745cda"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": null,
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "ea79837c-fa81-49b3-9e47-bd75fbdc0af9"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyPanel6",
+                                "margin": 5,
+                                "layout": "vbox",
+                                "scrollable": null
+                            },
+                            "designerId": "6c6ccdd0-97dc-435e-8ef1-b8c08ec603d0",
+                            "cn": [
+                                {
+                                    "type": "carousel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "designer|userClassName": "MyCarousel1"
+                                    },
+                                    "designerId": "4d26c665-107f-4730-a935-ebae2867f1ed",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel45"
+                                            },
+                                            "designerId": "9b6aa813-11df-4495-aa01-5938655f8c10",
+                                            "cn": [
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "f438c52b-926c-43b4-8f4e-0eda59c4edfb",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Dodge"
+                                                            },
+                                                            "designerId": "480f0cf6-4d99-44f5-8a20-c521123454b9"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "033d5a03-ea60-4784-9d9d-acd91adf2ae7"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "8a27a84a-81c7-4d5b-9817-fef997fcede0",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Parry"
+                                                            },
+                                                            "designerId": "4e4633bf-9550-409a-a75b-ce1e658547c9"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "43c746c9-8549-4444-bffb-4d0eff3e13fe"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "ffdb3251-6d26-4dba-8b1e-e89fcaf359df",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Toughness"
+                                                            },
+                                                            "designerId": "d27bfffd-7541-435d-8231-89c567b1cc6d"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "4935c567-be07-4b3d-8ff6-8cd6fb326533"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "height": 20,
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "c4f1c464-5fa5-4a55-8270-eb6c625d4143",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": ""
+                                                            },
+                                                            "designerId": "00c4dd03-ffb2-46a0-8fc6-c274080bae50"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": null,
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "02e17f18-6d31-46cd-b36e-9fbb47518ca5"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "bafdee47-fb61-491e-9173-611bba1adc77",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Initiative"
+                                                            },
+                                                            "designerId": "d8b224ea-898c-4f01-8ab8-cd9c87440226"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "d25b3336-b9be-4f56-98ca-fcc597021497"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel59"
+                                            },
+                                            "designerId": "904e4f5d-ba08-4945-aa8b-b6aa6b25b333",
+                                            "cn": [
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "fbff4f23-c076-4e95-9fae-bd13bf3d7d60",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Fortitude"
+                                                            },
+                                                            "designerId": "d5877bf5-5453-481a-9a9e-25c9ab31fd8b"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "a3e73ef2-2316-428d-8a20-1a8ed1a90200"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "panel",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyPanel18",
+                                                        "layout": "hbox"
+                                                    },
+                                                    "designerId": "8e59f48b-aea5-4470-acaf-f6790ef876f2",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "Will"
+                                                            },
+                                                            "designerId": "bbaf5de8-08e4-46ab-81bd-430ba7855a8e"
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyPanel19",
+                                                                "html": "10",
+                                                                "width": "25%"
+                                                            },
+                                                            "designerId": "12063d06-0eb6-4b0e-922b-b9f771c8135f"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 3,
+                        "designer|userClassName": "MyPanel1",
+                        "designer|displayName": "Details",
+                        "layout": "fit"
+                    },
+                    "designerId": "84123b08-b251-4ab4-b2b2-c83c3bd7371d",
+                    "cn": [
+                        {
+                            "type": "carousel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCarousel",
+                                "scrollable": false
+                            },
+                            "designerId": "eb2c1705-5e0d-4c84-a844-f1161291545f",
+                            "cn": [
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel2",
+                                        "layout": "fit"
+                                    },
+                                    "designerId": "4cfa7afc-2144-45f6-b1f3-1f2caf9d21c5",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel10",
+                                                "border": "1 0 1 0",
+                                                "cls": [
+                                                    "section-header"
+                                                ],
+                                                "docked": "top",
+                                                "html": "Powers",
+                                                "margin": "",
+                                                "minHeight": "",
+                                                "style": "height:36px; line-height:36px; text-align: center;\tfont-weight: bold;\tborder-style: solid; background-color: white;",
+                                                "ui": "dark",
+                                                "layout": null
+                                            },
+                                            "designerId": "e1d9b89b-da2c-4022-88ba-3364a3b29b92",
+                                            "cn": [
+                                                {
+                                                    "type": "image",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyImage",
+                                                        "docked": "right",
+                                                        "itemId": "myimage",
+                                                        "margin": "3 10 0 0",
+                                                        "right": null,
+                                                        "style": null,
+                                                        "width": 26,
+                                                        "src": "resources/images/plus.jpg"
+                                                    },
+                                                    "designerId": "f4e892d5-f465-476d-8441-5d8d99671c53",
+                                                    "cn": [
+                                                        {
+                                                            "type": "basiceventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "onMyimageTap",
+                                                                "fn": "onMyimageTap",
+                                                                "implHandler": [
+                                                                    "var topPanel = img.up('#mainWindow');\r",
+                                                                    "topPanel.setActiveItem(1);"
+                                                                ],
+                                                                "name": "tap"
+                                                            },
+                                                            "designerId": "1a708e5a-5709-4917-93ba-2422a414d843"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyList10",
+                                                "store": "CharacterPowerStore",
+                                                "disableSelection": true,
+                                                "onItemDisclosure": false
+                                            },
+                                            "designerId": "09581938-88a8-4b87-99ec-9c8608f954c5",
+                                            "cn": [
+                                                {
+                                                    "type": "template",
+                                                    "reference": {
+                                                        "name": "itemTpl",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "itemTpl",
+                                                        "implHandler": [
+                                                            "<div>\r",
+                                                            "    {power_name} ({rank})\r",
+                                                            "    &nbsp;&nbsp;&nbsp;\r",
+                                                            "    <img src=\"resources/images/info.jpg\" style=\"vertical-align:bottom\" />\r",
+                                                            "</div>"
+                                                        ],
+                                                        "designer|displayName": "itemTpl"
+                                                    },
+                                                    "designerId": "b709f92a-dc75-440e-9ff5-d50d79436f9b"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel2",
+                                        "layout": "fit"
+                                    },
+                                    "designerId": "b064afbd-eaf0-4cb7-925c-2d8036619a02",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel10",
+                                                "border": "1 0 1 0",
+                                                "cls": [
+                                                    "section-header"
+                                                ],
+                                                "docked": "top",
+                                                "height": null,
+                                                "html": "Devices",
+                                                "margin": null,
+                                                "minHeight": null,
+                                                "style": "height:36px; line-height:36px; text-align: center;\tfont-weight: bold;\tborder-style: solid; background-color: white;",
+                                                "ui": "dark"
+                                            },
+                                            "designerId": "11ddfafc-c824-4742-b5a4-b026b7d0784b",
+                                            "cn": [
+                                                {
+                                                    "type": "image",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyImage",
+                                                        "docked": "right",
+                                                        "itemId": "myimage1",
+                                                        "margin": "3 10 0 0",
+                                                        "right": null,
+                                                        "width": 26,
+                                                        "src": "resources/images/plus.jpg"
+                                                    },
+                                                    "designerId": "7111628e-1b38-4362-81bd-81e49ccf85bb",
+                                                    "cn": [
+                                                        {
+                                                            "type": "basiceventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "onMyimage1Tap",
+                                                                "fn": "onMyimage1Tap",
+                                                                "implHandler": [
+                                                                    "alert('foo-bar');"
+                                                                ],
+                                                                "name": "tap"
+                                                            },
+                                                            "designerId": "67d29b8c-d9e0-4d1d-84af-d5862b02566f"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyList10",
+                                                "onItemDisclosure": true
+                                            },
+                                            "designerId": "67895052-d37c-4139-9533-73375d86a4b2",
+                                            "cn": [
+                                                {
+                                                    "type": "template",
+                                                    "reference": {
+                                                        "name": "itemTpl",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "itemTpl",
+                                                        "implHandler": [
+                                                            "<div>List Item {string}</div>"
+                                                        ],
+                                                        "designer|displayName": "itemTpl"
+                                                    },
+                                                    "designerId": "dd9dfeae-969c-4404-b3c4-683908263f6b"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel2",
+                                        "layout": "fit"
+                                    },
+                                    "designerId": "f15fb69d-8a0e-4d4b-9918-14dab9a2118d",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel10",
+                                                "border": "1 0 1 0",
+                                                "cls": [
+                                                    "section-header"
+                                                ],
+                                                "docked": "top",
+                                                "height": null,
+                                                "html": "Skills",
+                                                "margin": null,
+                                                "minHeight": null,
+                                                "style": "height:36px; line-height:36px; text-align: center;\tfont-weight: bold;\tborder-style: solid; background-color: white;",
+                                                "ui": "dark"
+                                            },
+                                            "designerId": "2b19d2dd-7b8f-44d1-98bb-3b6df4fdfae8",
+                                            "cn": [
+                                                {
+                                                    "type": "image",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyImage",
+                                                        "docked": "right",
+                                                        "itemId": "myimage1",
+                                                        "margin": "3 10 0 0",
+                                                        "right": null,
+                                                        "width": 26,
+                                                        "src": "resources/images/plus.jpg"
+                                                    },
+                                                    "designerId": "a27d64b2-476e-4a9f-8c43-4bdc8e16325d",
+                                                    "cn": [
+                                                        {
+                                                            "type": "basiceventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "onMyimage1Tap2",
+                                                                "fn": "onMyimage1Tap2",
+                                                                "implHandler": [
+                                                                    "alert('foo-bar');"
+                                                                ],
+                                                                "name": "tap"
+                                                            },
+                                                            "designerId": "a481e78f-3684-40bb-a0ba-5192f3393b43"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyList10"
+                                            },
+                                            "designerId": "2dcb058b-99a4-49d9-abf5-0eb564d2e960",
+                                            "cn": [
+                                                {
+                                                    "type": "template",
+                                                    "reference": {
+                                                        "name": "itemTpl",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "itemTpl",
+                                                        "implHandler": [
+                                                            "<div>List Item {string}</div>"
+                                                        ],
+                                                        "designer|displayName": "itemTpl"
+                                                    },
+                                                    "designerId": "93432a0d-30d8-4a7c-b29d-21b259e33284"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel2",
+                                        "layout": "fit"
+                                    },
+                                    "designerId": "d172c0ca-2fe1-4cf4-bc74-ec420e8a1410",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel10",
+                                                "border": "1 0 1 0",
+                                                "cls": [
+                                                    "section-header"
+                                                ],
+                                                "docked": "top",
+                                                "height": null,
+                                                "html": "Advantages",
+                                                "margin": null,
+                                                "minHeight": null,
+                                                "style": "height:36px; line-height:36px; text-align: center;\tfont-weight: bold;\tborder-style: solid; background-color: white;",
+                                                "ui": "dark"
+                                            },
+                                            "designerId": "32ebf1e1-82b5-478c-8010-a82d520c11af",
+                                            "cn": [
+                                                {
+                                                    "type": "image",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyImage",
+                                                        "docked": "right",
+                                                        "itemId": "myimage1",
+                                                        "margin": "3 10 0 0",
+                                                        "right": null,
+                                                        "width": 26,
+                                                        "src": "resources/images/plus.jpg"
+                                                    },
+                                                    "designerId": "307664b9-f22c-4744-bd71-7a713221a300",
+                                                    "cn": [
+                                                        {
+                                                            "type": "basiceventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "onMyimage1Tap1",
+                                                                "fn": "onMyimage1Tap1",
+                                                                "implHandler": [
+                                                                    "alert('foo-bar');"
+                                                                ],
+                                                                "name": "tap"
+                                                            },
+                                                            "designerId": "64e94d60-8f83-403f-b53e-ede4b0283e45"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyList10"
+                                            },
+                                            "designerId": "bcaf0929-dc8d-404c-b398-07569f9c07c6",
+                                            "cn": [
+                                                {
+                                                    "type": "template",
+                                                    "reference": {
+                                                        "name": "itemTpl",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "itemTpl",
+                                                        "implHandler": [
+                                                            "<div>List Item {string}</div>"
+                                                        ],
+                                                        "designer|displayName": "itemTpl"
+                                                    },
+                                                    "designerId": "20a41406-13f5-431e-aeb5-a05352945952"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel2",
+                                        "layout": "fit"
+                                    },
+                                    "designerId": "f84d3560-5dba-423a-bc68-73fb02f3a24a",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyPanel10",
+                                                "border": "1 0 1 0",
+                                                "cls": [
+                                                    "section-header"
+                                                ],
+                                                "docked": "top",
+                                                "height": null,
+                                                "html": "Complications",
+                                                "margin": "0 0 0 5",
+                                                "minHeight": null,
+                                                "style": "height:36px; line-height:36px; text-align: center;\tfont-weight: bold;\tborder-style: solid; background-color: white;"
+                                            },
+                                            "designerId": "57b43357-ab55-4ab8-b536-4a54ffc9e3d7",
+                                            "cn": [
+                                                {
+                                                    "type": "image",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyImage",
+                                                        "docked": "right",
+                                                        "itemId": "myimage3",
+                                                        "margin": "3 10 0 0",
+                                                        "right": null,
+                                                        "width": 26,
+                                                        "src": "resources/images/plus.jpg"
+                                                    },
+                                                    "designerId": "2aeb0a0d-02e0-4f17-89e2-6f478116d0b9",
+                                                    "cn": [
+                                                        {
+                                                            "type": "basiceventbinding",
+                                                            "reference": {
+                                                                "name": "listeners",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "onMyimage3Tap",
+                                                                "fn": "onMyimage3Tap",
+                                                                "implHandler": [
+                                                                    "alert('foo-bar');"
+                                                                ],
+                                                                "name": "tap"
+                                                            },
+                                                            "designerId": "63c9c2f2-50db-4730-8f2a-26f1c62a44f4"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "list",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyList10"
+                                            },
+                                            "designerId": "c4c4d4f8-9ff6-467c-856b-5bd321374483",
+                                            "cn": [
+                                                {
+                                                    "type": "template",
+                                                    "reference": {
+                                                        "name": "itemTpl",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "itemTpl",
+                                                        "implHandler": [
+                                                            "<div>List Item {string}</div>"
+                                                        ],
+                                                        "designer|displayName": "itemTpl"
+                                                    },
+                                                    "designerId": "1e574069-6fd4-41c1-9b28-3b51504730d2"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel71",
+                "designer|displayName": "PowerList",
+                "layout": "vbox"
+            },
+            "designerId": "dc875b8d-8355-451f-b1da-f51f03186010",
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "designer|userClassName": "MyTitleBar1",
+                        "docked": "top",
+                        "title": "All Powers"
+                    },
+                    "designerId": "25ced489-1c2a-4b53-b3e6-5731fb2a636e",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton1",
+                                "designer|displayName": "Cancel",
+                                "itemId": "mybutton1",
+                                "text": "Cancel"
+                            },
+                            "designerId": "62124a90-476d-46df-a748-600eb2d4e4b7",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "onMybutton1Tap",
+                                        "fn": "onMybutton1Tap",
+                                        "implHandler": [
+                                            "var topPanel = button.up('#mainWindow');\r",
+                                            "topPanel.getLayout().setAnimation({type: 'slide', direction: 'right'});\r",
+                                            "topPanel.setActiveItem(0);\r",
+                                            "topPanel.getLayout().setAnimation({type: 'slide', direction: 'left'});"
+                                        ],
+                                        "name": "tap"
+                                    },
+                                    "designerId": "79b6ba7c-21c5-4094-a958-c5543835c1c7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "align": "right",
+                                "designer|userClassName": "MyButton2",
+                                "text": "Create"
+                            },
+                            "designerId": "2c636f9d-19f9-4817-8294-042ebf0ce236"
+                        }
+                    ]
+                },
+                {
+                    "type": "searchfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySearchField",
+                        "border": "0 0 1 0",
+                        "itemId": "power_search",
+                        "style": "font-weight: bold;\tborder-style: solid; background-color: white;",
+                        "label": "Name",
+                        "labelWidth": "20%"
+                    },
+                    "designerId": "e25e268a-59bf-4f38-96d8-7dc1fdf8ad66"
+                },
+                {
+                    "type": "list",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyList5",
+                        "itemId": "power_list",
+                        "store": "PowerStore",
+                        "disableSelection": true,
+                        "grouped": true,
+                        "onItemDisclosure": false,
+                        "preventSelectionOnDisclose": false
+                    },
+                    "designerId": "fb1856a4-73a2-4b81-8a3e-240b7f01df47",
+                    "cn": [
+                        {
+                            "type": "template",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "itemTpl",
+                                "implHandler": [
+                                    "<div>\r",
+                                    "    <img src=\"resources/images/plus.jpg\" style=\"vertical-align:bottom\" />\r",
+                                    "    &nbsp;&nbsp;&nbsp;\r",
+                                    "    {name}\r",
+                                    "    &nbsp;&nbsp;&nbsp;\r",
+                                    "    <img src=\"resources/images/info.jpg\" style=\"vertical-align:bottom\" />\r",
+                                    "</div>"
+                                ],
+                                "designer|displayName": "itemTpl"
+                            },
+                            "designerId": "02d59b2b-85b5-4263-a454-3bf7c9298af9"
+                        },
+                        {
+                            "type": "listindexbar",
+                            "reference": {
+                                "name": "indexBar",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyIndexBar"
+                            },
+                            "designerId": "79bf04c3-f1e8-410c-b690-2d31443831e4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

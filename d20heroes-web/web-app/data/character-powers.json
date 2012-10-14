@@ -1,0 +1,16 @@
+{
+	meta: {
+		success: true
+	},
+	data:[
+		{id: 1, rank: 10, power_id: 1, power: {id: 1, name: 'Super Speed', costPerRank: 5}}
+		,{id: 2, rank: 10, power_id: 2, power: {id: 2, name: 'Sorcery', costPerRank: 5}}
+		,{id: 3, rank: 10, power_id: 3, power: {id: 3, name: 'Continum Control', costPerRank: 5}}
+		,{id: 4, rank: 6, power_id: 4, power: {id: 4, name: 'Flight', costPerRank: 5}}
+		,{id: 5, rank: 6, power_id: 5, power: {id: 5, name: 'Flame Being', costPerRank: 5}}
+		,{id: 6, rank: 3, power_id: 6, power: {id: 6, name: 'X-Ray Vision', costPerRank: 5}}
+		,{id: 7, rank: 12, power_id: 7, power: {id: 7, name: 'Force Manipulation', costPerRank: 5}}
+		,{id: 8, rank: 8, power_id: 8, power: {id: 8, name: 'Dispersal', costPerRank: 5}}
+		,{id: 9, rank: 9, power_id: 9, power: {id: 9, name: 'Mind Blast', costPerRank: 5}}
+	]
+}
